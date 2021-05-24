@@ -1,0 +1,82 @@
+
+http://localhost:8080/addCustomer
+
+{
+   "customerId":122,
+   "customerName":"tushar",
+   "phoneNumber":"9634527439",
+   "password":"Geeks@portal20",
+   "companyName":"ASIAN PAINTS",
+   "legalName":"ASIAN PAINTS CORP",
+   "legalAddress":{
+      "line1":"StreetABC Line 1",
+      "line2":"StreetABC Line 2",
+      "city":"CityABC",
+      "state":"up",
+      "zipcode":"243122"
+   },
+   "businessAddress":{
+      "line1":"StreetABC Line 1",
+      "line2":"StreetABC Line 2",
+      "city":"CityABC",
+      "state":"up",
+      "zipcode":"243122"
+   },
+   "panNumber":"CMCGG9546W",
+   "email":"ishan20@gmail.com",
+   "website":"https://www.geeksforgeeks.org"
+}
+
+http://localhost:8080/updateCustomer/122
+
+{
+   "customerId":122,
+   "customerName":"tushar",
+   "phoneNumber":"9634527439",
+   "password":"Geeks@portal20",
+   "companyName":"ASIAN PAINTS",
+   "legalName":"ASIAN PAINTS CORP",
+   "legalAddress":{
+      "line1":"StreetABC Line 1",
+      "line2":"StreetABC Line 2",
+      "city":"CityABC",
+      "state":"up",
+      "zipcode":"243122"
+   },
+   "businessAddress":{
+      "line1":"StreetABC Line 1",
+      "line2":"StreetABC Line 2",
+      "city":"CityABC",
+      "state":"up",
+      "zipcode":"243122"
+   },
+   "panNumber":"CMCGG9546W",
+   "email":"ishan20@gmail.com",
+   "website":"https://www.geeksforgeeks.org"
+}
+
+http://localhost:8080/addProduct
+{
+	"productId":"1",
+	"productName":"QuickBooks"
+	
+}
+http://localhost:8080/addProduct
+{
+	"productId":2,
+	"productName":"QB Payroll"
+	
+}
+http://localhost:8080/addProduct
+{
+	"productId":"3",
+	"productName":"QB Payments"
+	
+}
+
+http://localhost:8080/subscribeProduct
+{
+	"productId":3,
+	"subscriberId":20
+	
+}

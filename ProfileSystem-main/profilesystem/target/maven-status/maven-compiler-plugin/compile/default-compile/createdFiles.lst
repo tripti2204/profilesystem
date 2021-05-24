@@ -1,0 +1,4 @@
+com\example\profilesystem\pojo\Address.class
+com\example\profilesystem\validation\CustomerProfileValidation.class
+com\example\profilesystem\validation\ProductValidation.class
+com\example\profilesystem\validation\AddressValidation.class
